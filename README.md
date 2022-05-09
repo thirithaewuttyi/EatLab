@@ -8,8 +8,10 @@ I use
 - pytorch  1.10.2
 - scipy 1.7.3
 	
- To run in Linux, 
-- cd /Users/macbookair/PycharmProjects/EatLab/
-- python3 main.py 
+CLI interface, 
+python3 nearest_neighbors_class.py --centroids centroids.csv --coords coordinates.csv --r 10 --p 80 --c 1000
+
+To demonstrate class API usage, test.py is also given.  
+
 
 
